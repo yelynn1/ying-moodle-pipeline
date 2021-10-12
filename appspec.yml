@@ -1,0 +1,6 @@
+version: 0.1
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/moodle
+file_exists_behavior: OVERWRITE
